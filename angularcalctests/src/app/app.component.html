@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row">
+    <input class="form-control output" type="text" placeholder="{{input}}" readonly />
+  </div>
+  <div class="calc">
+    <div class="row">
+      <button class="num" (click)="numPressed('1')">1</button>
+      <button class="num" (click)="numPressed('2')">2</button>
+      <button class="num" (click)="numPressed('3')">3</button>
+      <button class="operator" (click)="operatorPressed('*')">*</button>
+    </div>
+    <div class="row">
+      <button class="num" (click)="numPressed('4')">4</button>
+      <button class="num" (click)="numPressed('5')">5</button>
+      <button class="num" (click)="numPressed('6')">6</button>
+      <button class="operator" (click)="operatorPressed('+')">+</button>
+    </div>
+    <div class="row">
+      <button class="num" (click)="numPressed('7')">7</button>
+      <button class="num" (click)="numPressed('8')">8</button>
+      <button class="num" (click)="numPressed('9')">9</button>
+      <button class="operator" (click)="operatorPressed('-')">-</button>
+    </div>
+    <div class="row">
+      <button class="reset" (click)="clearPressed()">C</button>
+      <button class="num" (click)="numPressed('0')">0</button>
+      <button class="equal" (click)="equalPressed()">=</button>
+      <button class="operator" (click)="operatorPressed('/')">/</button>
+    </div>
+  </div>
+</div>

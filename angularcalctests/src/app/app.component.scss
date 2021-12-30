@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+    margin:20px auto;
+    max-width: 500px;
+    width: 190px;
+    padding: 10px;
+    background-color: lightgreen;
+    border-radius: 10%;
+    border: 1px solid black;
+}
+
+.row{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Make this prettier! */
+
+button{
+    background-color:gold;
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 3px;
+}
+
+button:hover{
+    background-color: darkgoldenrod;
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.calc{
+background-color: darkorange;
+border-radius: 10%;
+width: 160px;
+height: 180px;
+margin: auto;
+padding-top: 4px;
+}
+
+.output{
+    width: 160px;
+    margin-bottom: 10px;
+    
+}
+
+.output:hover{
+    width: 160px;
+    margin-bottom: 10px;
+    border: 2px solid red;
+}
